@@ -1,0 +1,32 @@
+div{
+    margin: 0px auto;
+    text-align:center;
+    width:500px;
+}
+.Logo{
+    width:150px
+}
+.Redes-Sociais{
+    width:40px;
+    padding: 0px 5px;
+}
+body{
+    background-color: #f3f3f3;
+}
+h1{
+    font-weight: bold;
+    font-size:24px
+}
+h2{
+    color:gray;
+    font-size:17px
+}
+.texto{
+    font-size:16px
+}
+span{
+    font-weight: bold;
+}
+.span-vermelho{
+    color:red
+}

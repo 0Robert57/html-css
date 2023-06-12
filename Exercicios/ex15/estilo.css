@@ -1,0 +1,10 @@
+.texto-destaque{
+    color:red;
+    font-weight: normal;
+}
+span{
+    font-weight: bold;
+}
+p{
+    font-family: Arial;
+}
