@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+.topo{
+    text-align: center;
+    background-color:#1c6c4c;
+    color: white;
+    margin: 0px auto;
+    height: 6vh;
+    padding: 10px;
+    font-size: 28px
+}
+.secao-limitada{
+    width: 90%;
+    margin: 0px auto;
+}
+.imagem-topo{
+    width: 100%;
+}
+.secao-galeria img{
+    width: calc((100% / 3) - 3px);
+    margin-bottom:20px ;
+}
+.secao-rodape{
+    text-align: center;
+    background-color:#1c6c4c;
+    color: white;
+    margin: 0px auto;
+    height: 3vh;
+    padding: 10px;
+    font-size:20px;
+}

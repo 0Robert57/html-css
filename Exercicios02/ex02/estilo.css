@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    font-family: Arial;
+}
+h2{
+    font-weight: bold;
+    padding-top: 20px;
+}
+.secao-topo, .secao-rodape{
+    background-color: #fc8414;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px auto;
+}
+.secao-limitada{
+    width: 70%;
+    margin: 0px auto;
+}
+.secao-conteudo{
+    height: 300px;
+    overflow-y: scroll;
+}
+.secao-fotos img{
+    width: calc((95% / 3) - 3px);
+    margin: 0 1.5px;
+    height: 220px;
+}
+.secao-fotos{
+    padding-bottom: 20px;
+}
+.fotos{
+    overflow-x: scroll;
+    display: flex;
+}
