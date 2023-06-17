@@ -1,0 +1,41 @@
+body{
+    font-family: Arial;
+    margin: 0px;
+}
+h2, .rodape{
+    text-align: center;
+}
+.capa{
+    width: 100%;
+    box-sizing: border-box;
+}
+.topo, .rodape{
+    background-color: #4414c4;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.topo a{
+    color: #4414c4;
+    background-color: white;
+    border-radius: 20px;
+    padding: 6px 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.secao-limitada{
+    margin: 0px auto;
+    width: 75%;
+}
+.secao-disponibilidade img{
+    width: 100%;
+}
+.secao-galeria .imagens img{
+    width: calc(100%/3);
+    margin: 20px 7px;
+    box-shadow: 10px 10px 30px;
+}
+.secao-galeria .imagens{
+    display: flex;
+    overflow-x: scroll;
+}
