@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0px;
     font-family: Arial;
 }
 .topo{
@@ -35,34 +35,72 @@ body{
     color:white;
 }
 .tabela{
-    text-align: center;
+    padding: 50px 200px;
+    line-height: 40px;
     margin: 0px auto;
+    text-align: center;
 }
-.tabela-destaque{
-    background-color: gray;
+tbody th{
+    background-color: #f4f4f4;
+    text-align: left;
+    width: 250px;
+    padding: 5px 30px;
+    font-size: 13px;
+}
+tbody td{
+    font-size: 12px;
+    border: 1px solid #f4f4f4;
+}
+.tabela-circulo div{
+    background-color: #2c84d4;
+    width: 15px;
+    height: 15px;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+.tabela-destaque th{
+    background-color: #f4f4f4;
+    line-height: 30px;
+    font-size: 20px;
+    width: 150px;
+}
+.tabela-destaque span{
+    display: block;
+    color: gray;
+    font-size: 12px;
 }
 .rodape{
+    background-color: #2c84d4;
+    padding: 50px;
     position: relative;
-    background-color:#2c84d4;    
-    padding: 100px;
 }
 .rodape img{
-
+    padding: 50px;
     position: absolute;
     left: 500px;
+    top: 0px;
     width: 5%;
     margin: 0px auto;
-    text-align: center;
 }
 .rodape .texto-rodape{
     position: absolute;
     left: 620px;
-    top: 0px;
+    top: 50px;
     font-size: 15px;
-    line-height: 5px;    
+    line-height: 5px; 
 }
-.direitos{
-    position: absolute;
+.rodape .direitos{
+    padding-top: 70px;
     text-align: center;
     margin: 0px auto;
+    color: white;
+}
+.Desenvolvido{
+    padding: 20px 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: bold;
+}
+.Desenvolvido span{
+    color: #2c84d4;
 }
