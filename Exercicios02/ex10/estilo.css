@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cardum{
+    background-color: blue;
+    width: 400px;
+}
+.carddois{
+    background-color: yellow;
+    width: 400px;
+}
+.cardtres{
+    background-color: red;
+    width: 400px;
+}
