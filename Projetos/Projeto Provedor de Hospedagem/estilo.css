@@ -97,6 +97,8 @@ body{
 }
 .secao-servicos{
     width: 800px;
+    margin:0px auto;
+    text-align: center;
     padding: 50px 0px;
 }
 .secao-servicos h2{
@@ -113,6 +115,8 @@ body{
 }
 .secao-tabela h2{
     padding-bottom: 30px;
+    margin: 0px auto;
+    text-align: center;
 }
 .secao-tabela img{
     width: 30%;
@@ -122,6 +126,8 @@ body{
     background-color: white;
     width: 700px;
     height: 350px;
+    margin: 0px auto;
+    text-align: center;
     box-shadow: 0 0 12px 9px #2c84d4;
 }
 .tabela-destaque{
@@ -139,7 +145,7 @@ body{
     position: relative;
     line-height: 30px;
 }
-.destaque-azul h3{
+.destaque-azul h3, .destaque-azul p{
     color: white;
     margin: 0px auto;
     width: 700px;
@@ -167,6 +173,8 @@ body{
     position: absolute;
     left: 500px;
     width: 5%;
+    margin: 0px auto;
+    text-align: center;
 }
 .secao-contato .texto-contato{
     position: absolute;
@@ -177,13 +185,13 @@ body{
 }
 .contato{
     padding-top: 150px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0px auto;
 }
 .rodape{
     background-color: #f4f4f4;
-    padding: 20px;
-}
-.texto-centralizado{
     margin: 0px auto;
     text-align: center;
+    padding: 10px;
 }
