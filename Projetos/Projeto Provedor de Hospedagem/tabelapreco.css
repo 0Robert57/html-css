@@ -37,8 +37,6 @@ body{
 .tabela{
     padding: 50px 200px;
     line-height: 40px;
-    margin: 0px auto;
-    text-align: center;
 }
 tbody th{
     background-color: #f4f4f4;
@@ -91,16 +89,16 @@ tbody td{
 }
 .rodape .direitos{
     padding-top: 70px;
-    text-align: center;
-    margin: 0px auto;
     color: white;
 }
 .Desenvolvido{
-    padding: 20px 0px;
-    margin: 0px auto;
-    text-align: center;
+    padding: 20px;
     font-weight: bold;
 }
 .Desenvolvido span{
     color: #2c84d4;
+}
+.texto-centralizado{
+    margin: 0px auto;
+    text-align: center;
 }
