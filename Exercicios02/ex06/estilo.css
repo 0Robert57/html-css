@@ -9,6 +9,10 @@ h2, .rodape{
     width: 100%;
     box-sizing: border-box;
 }
+.topo a:hover{
+    background-color: #290c77;
+    color: white;
+}
 .topo, .rodape{
     background-color: #4414c4;
     color: white;
