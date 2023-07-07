@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(128, 128, 128, 0.637);
+}
+div{
+    background-color: white;
+    margin: 0px auto;
+    padding: 5px 40px;
+    width: 500px;
+    height: 578px;
+    font-family: verdana;
+    font-size:15px;
+}
+h1{
+    background-color:#5ec330;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 8px solid black;
+    font-size: 25px;
+    margin-bottom: 25px
+}
+img{
+    width: 500px;
+}
+p{
+    margin-bottom: 35px;
+}
+ul{
+    margin-bottom: 40px
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+    background-color: #5ec330;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
