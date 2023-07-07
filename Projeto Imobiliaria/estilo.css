@@ -1,0 +1,101 @@
+body{
+    margin:0px
+}
+.center{
+    margin:0px auto;
+    text-align: center;
+    font-family: Arial;
+}
+.intro img{
+    width: 180px;
+}
+.intro {
+    background-color: #b4dcfc;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.intro a{
+    margin: 0px 5px;
+    color:#2c4a5f
+}
+.texto-negrito{
+    font-weight: bold;
+}
+.secao-sobre img{
+    padding-top: 40px;
+    padding-bottom: 45px;
+    width: 900px;
+}
+.secao-sobre h2{
+    font-size: 22px;
+    color: #5e74f3;
+    padding: 0px;
+}
+.secao-sobre .imovel{
+    width: 400px;
+    padding: 0px;
+}
+.secao-sobre p{
+    width: 900px;
+    text-align: left;
+    margin: 0px auto;
+    padding-bottom: 30px;
+}
+.secao-servicos{
+    background-color: #1c84c4;
+    color:white;
+    padding: 35px 0px;
+}
+.secao-servicos p, ul{
+    width: 575px;
+    margin: 0px auto;
+    font-size: 18px;
+    line-height: 30px;
+}
+.secao-servicos span{
+    color:#f5f846;
+}
+.secao-servicos ul{
+    padding-top: 10px;
+    width: 120px;
+    margin: 0px auto;
+    text-align: left;
+}
+.secao-corretores .imovel{
+    width: 400px;
+    padding: 0px;
+}
+.texto-azul{
+    color:#1c84c4
+}
+.secao-corretores p{
+    width: 900px;
+    text-align: left;
+    margin: 0px auto;
+    padding-bottom: 30px;
+}
+.secao-contato{
+    background-color:#1c84c4;
+    color:white;
+    padding: 30px 0px;
+}
+.secao-contato iframe{
+    width: 700px;
+    height: 300px;
+}
+.secao-contato p{
+    background-color: black;
+    padding: 15px;
+    width: 868px;
+    margin:25px auto;
+}
+.secao-contato span{
+    color:#f5ed0a
+}
+.secao-contato a{
+    line-height: 40px;
+    background-color: white;
+    color:#1c84c4;
+    padding: 5px;
+    border-radius: 5px;
+}
