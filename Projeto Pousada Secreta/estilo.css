@@ -53,6 +53,9 @@ header{
     padding: 30px;
     text-align: center;
 }
+.topo h2{
+    font-size: 30px;
+}
 .container-quartos{
     display: flex;
     justify-content: space-around;
@@ -64,6 +67,9 @@ header{
     width: calc((100%/3) - 20px);
     font-size: 20px;
     border-bottom: 3px solid #4c9c7c;
+}
+#sobre{
+    padding-bottom: 30px;
 }
 .container-sobre{
     display: flex;
