@@ -1,31 +1,112 @@
+/*Estilo Geral*/
 *{
     margin: 0;
     padding: 0;
+    font-family:'Source Sans Pro', sans-serif;
+}
+h2,h3{
+    padding: 30px 0px;
+}
+.secao-limitada{
+    width: 45%;
+    margin: 0px auto;
 }
 header{
-    width: 100%;
     box-sizing: border-box;
+    width: 100%;
     padding: 0px 10px;
     background-color: #04ccd4;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header figure img{
+.logo img{
     width: 100%;
     height: 100%;
 }
-header figure{
+.logo{
     width: 100px;
 }
-header nav a{
+.links-topo a{
     color: white;
     padding: 0px 20px;
     text-decoration: none;
     font-size: 18px;
 }
-.banner .banner-img{
-    width: 100%;
-    height: 500px;
-    background: url(img/recepcao.png) cover;
+.links-topo a:hover{
+    color: black;
+}
+.banner{
+    background: url(img/recepcao.png) no-repeat top center;
+    background-size: cover; 
+    height: 380px;
+    display: flex;
+    align-items: center;
+}
+.banner p{
+    font-size: 32px;
+    padding: 0px 10px;
+    color: white;
+}
+.secao-topo{
+    text-align: center;
+    margin: 0px auto;
+}
+.destaque-sobre{
+    display: flex;
+    justify-content: space-between;
+}
+#espec{
+    text-align: center;
+    margin: 0px auto;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lista p{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.container{
+    padding: 30px 0px;
+    margin: 0px auto;
+    width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: calc((100%/3) - 50px);
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px 1px gray;
+    display: flex;
+    flex-direction: column;
+}
+.card p{
+    padding: 10px;
+}
+#espec a{
+    padding: 10px;
+    background-color: #04ebf3;
+    color: white;
+    text-decoration: none;
+}
+#contato{
+    line-height: 25px;
+}
+.contato-mapa{
+    margin: 0px auto;
+    padding: 30px;
+}
+footer{
+    background-color: #14746c;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+footer .logo{
+    margin: 0px auto;
 }
