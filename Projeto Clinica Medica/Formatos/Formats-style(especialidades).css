@@ -1,0 +1,61 @@
+/*Estilo para telas de máximo 425px*/
+@media screen and (min-width:320px) and (max-width:425px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .links-topo{
+        width: 100%;
+        border-top: 1px solid #04979c;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .links-conteudo a{
+        font-size: 19px;
+        padding: 5px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .secao-conteudo{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .secao-especialidade{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .secao-especialidade p{
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .secao-tabela figure{
+        display: none;
+    }
+    .secao-tabela{
+        width: 100%;
+        line-height: 35px;
+    }
+}
+
+/*Estilo para telas de minimo 426px e maximo de 768px*/
+@media screen and (min-width:426px) and (max-width:768px){ 
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .secao-tabela figure{
+        display: none;
+    }
+    .secao-tabela{
+        width: 95%;
+        line-height: 40px;
+    }
+}

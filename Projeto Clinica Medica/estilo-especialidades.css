@@ -1,0 +1,114 @@
+/*Estilo Geral*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 0px 10px;
+    background-color: #04ccd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 100px;
+}
+.links-topo a{
+    color: white;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.links-topo a:hover{
+    color: black;
+}
+.links-conteudo{
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px auto;
+    text-align: center;
+}
+.links-conteudo a{
+    padding: 0px 10px;
+    color: black;
+    text-decoration:underline #04ccd4;
+}
+.links-conteudo a:hover{
+    color: #047a7e;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+section h1:first-of-type{
+    margin: 0px auto;
+    text-align: center;
+}
+.secao-conteudo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.secao-conteudo p{
+    width: 510px;
+    margin: 0px auto;
+}
+.secao-especialidade{
+    padding: 10px;
+}
+.secao-tabela{
+    width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    text-align: left;
+}
+.secao-tabela table thead th{
+    background-color: #04ccd4;
+    color: white;
+    padding-left: 10px;
+    line-height: 40px;
+}
+.secao-tabela tbody td{
+    padding-left: 10px;
+}
+.secao-tabela table{
+    width: 100%;
+    border-collapse:collapse;
+}  
+.secao-tabela tbody tr:nth-of-type(odd){
+    background-color:#cccccc;
+}
+.secao-tabela tbody tr:nth-of-type(even){
+    background-color: #f4f4f4;
+} 
+figure img{
+    width: 100%;
+    height: 100%;
+}
+figure{
+    width: 350px;
+    height: 200px;
+}
+section:last-child{
+    padding-bottom: 50px;
+}
+footer{
+    background-color: #14746c;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+footer .logo{
+    margin: 0px auto;
+}
